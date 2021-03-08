@@ -6,7 +6,7 @@ FLAGS = -Wall -Wextra -Werror -fsanitize=address
 INCLUDES = -I includes/ -I includes/includes_SDL2/
 
 LIB_DIR = libs/
-LIBRARIES = $(LIB_DIR)libSDL2.dylib $(LIB_DIR)libSDL2_ttf.dylib $(LIB_DIR)libSDL2_image.dylib
+LIBRARIES = $(LIB_DIR)libSDL2.dylib $(LIB_DIR)libSDL2_image.dylib
 
 SDLX_DIR = SDLX/
 SRCS_DIR = srcs/
